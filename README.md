@@ -12,8 +12,8 @@ César recibía consultas de precios por WhatsApp a todas horas. Este proyecto a
 
 ## Demo
 
-> Web: [En proceso de despliegue en VPS propio con Dokploy]  
-> Backend API: `http://127.0.0.1:8000/docs` (local)
+> La web y el backend están siendo desplegados en VPS propio con Dokploy.  
+> Para probar en local, sigue las instrucciones de instalación más abajo.
 
 ---
 
