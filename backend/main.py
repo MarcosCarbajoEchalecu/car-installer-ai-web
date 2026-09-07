@@ -79,7 +79,8 @@ async def chat(data: Mensaje):
         respuesta = chain.invoke(data.mensaje)
         return {"respuesta": respuesta}
     except Exception as e:
-        return {"respuesta": "Lo siento, ha habido un error. Contacta con César al +34 608 82 35 37"}
+        print(f"ERROR DETALLADO: {str(e)}")
+        return {"respuesta": f"Error: {str(e)}"}
 
 @app.get("/")
 async def root():
