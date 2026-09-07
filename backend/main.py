@@ -39,10 +39,11 @@ db = Chroma.from_documents(chunks, embeddings)
 retriever = db.as_retriever(search_kwargs={"k": 3})
 
 # Modelo via OpenRouter
+os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_BASE"] = "https://openrouter.ai/api/v1"
+
 llm = ChatOpenAI(
     model="anthropic/claude-haiku-4-5",
-    openai_api_key=os.getenv("OPENROUTER_API_KEY"),
-    openai_api_base="https://openrouter.ai/api/v1",
     max_tokens=500
 )
 
