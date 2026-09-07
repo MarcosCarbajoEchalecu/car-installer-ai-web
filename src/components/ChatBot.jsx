@@ -17,7 +17,7 @@ export default function ChatBot() {
     setMensajes(prev => [...prev, { texto: pregunta, tipo: "user" }])
     setCargando(true)
     try {
-      const res = await fetch("http://127.0.0.1:8000/chat", {
+      const res = await fetch("http://147.79.117.24/api/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ mensaje: pregunta })
