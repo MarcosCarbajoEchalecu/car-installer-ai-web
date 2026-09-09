@@ -12,8 +12,9 @@ César recibía consultas de precios por WhatsApp a todas horas. Este proyecto a
 
 ## Demo
 
-> La web y el backend están siendo desplegados en VPS propio con Dokploy.  
-> Para probar en local, sigue las instrucciones de instalación más abajo.
+Despliegue
+
+La web y el backend están desplegados en VPS propio con Dokploy..
 
 ---
 
